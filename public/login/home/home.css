@@ -1,18 +1,11 @@
 
 .main-container {
     margin: 0 auto;
-    padding: 5px;
+    padding: 95px 0px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 75vh;
-}
-
-.main-container img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+    height: 85vh;
 }
 
 body {
@@ -26,7 +19,6 @@ body {
         font-size: 19px;
         padding: 5px 50px;
         border: 2px solid yellow;
-        border-radius: 7px;
         color: rgb(0, 0, 0);
         background: linear-gradient(to right, rgba(123, 0, 255, 0.504), rgba(200, 0, 255, 0.447));
         transition: .3s;
@@ -35,18 +27,4 @@ body {
 
 a:hover {
     color:rgb(255, 234, 0);
-}
-
-nav {
-    background-color: #000; /* Fondo negro */
-    padding: 10px; /* Espaciado interno */
-    text-align: center; /* Alineación del texto al centro */
-}
-
-/* Estilo para los botones de la barra de navegación */
-nav a {
-    color: #fff; /* Color del texto */
-    text-decoration: none; /* Sin subrayado */
-    margin: 0 15px; /* Márgenes entre los botones */
-    font-size: 18px; /* Tamaño de fuente */
 }

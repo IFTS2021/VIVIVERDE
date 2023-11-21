@@ -1,4 +1,3 @@
-
 .main-container {
     margin: 0 auto;
     padding: 20px;
@@ -6,8 +5,10 @@
     border-radius: 5px;
     text-align: center;
     height: 75vh;
-    background: rgb(117,191,105);
-    background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 35%, rgba(84,183,205,1) 76%, rgba(45,45,45,1) 100%);
+}
+
+body {
+  background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 35%, rgba(84,183,205,1) 76%, rgba(45,45,45,1) 100%);
 }
 
 .main-container img {
@@ -16,6 +17,7 @@
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
 .navbar{
     background: rgb(117,191,105);
     background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 17%, rgba(12,148,51,1) 94%);
@@ -24,7 +26,6 @@
     background: rgb(117,191,105);
     background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 17%, rgba(12,148,51,1) 94%);
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -43,21 +44,20 @@ body {
   }
 
 .form-floating {
-    padding: 120px 20px;
+    padding: 50px 20px;
     font-size: 20px;
        
 }
 
-  .puntos {
+  .map {
         display: flex;
         flex-direction: column;
-        margin: 10px 5px;
         font-size: 25px;
-        padding: 15px 50px;
         border: 2px solid yellow;
         color: rgb(0, 0, 0);
         background: linear-gradient(to right, rgba(123, 0, 255, 0.504), rgba(200, 0, 255, 0.447));
-        
+        height: 370px; /* Puedes ajustar la altura según tus necesidades */
+        width: 100%;   /* O ajustar el ancho */
   }
 
   .boton {

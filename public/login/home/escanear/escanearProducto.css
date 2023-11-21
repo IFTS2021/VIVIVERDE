@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 35%, rgba(84,183,205,1) 76%, rgba(45,45,45,1) 100%);
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 20px ;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 0px;
+  height: 800px;
+}
+
+
+  h1 {
+       padding: 10px 0px;
+  }
+
+.form-floating {
+    padding: 120px 20px;
+    font-size: 20px;
+}
+
+  .codigo {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 5px;
+        font-size: 25px;
+        padding: 15px 50px;
+        border: 2px solid yellow;
+        color: rgb(0, 0, 0);
+        background: linear-gradient(to right, rgba(123, 0, 255, 0.504), rgba(200, 0, 255, 0.447));
+  }
+
+  .form1 {
+        padding: 15px 50px;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        background: linear-gradient(to right, rgba(123, 0, 255, 0), rgba(200, 0, 255, 0));
+  }
+
+  .dropdown {
+    min-width: 15em;
+    position: relative;
+    margin: 2em;
+  }
+
+  .dropdown * {
+    box-sizing: border-box;
+  }
+
+  .select {
+    background: #9500ff5c;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px black solid;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .select-clicked {
+    border: 2px black solid;
+    box-shadow: 0 0 0.9em  rgb(255, 0, 247);
+  }
+
+  .select:hover {
+    background: rgb(0, 255, 94);
+  }
+
+  .caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent; 
+    border-top: 6px solid rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+
+  .caret-rotate {
+    transform: rotate(180deg);
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: rgb(0, 255, 179);
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow: 0 0.5em 1em rgb(255, 0, 247);
+    border-radius: 0.5em;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+  }
+
+  .menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+
+  .menu li:hover {
+    background: #f0f0f0;
+  }
+
+  .active {
+    background: cadetblue;
+  }
+
+  .menu-open {
+    display: block;
+    opacity: 1;
+  }
+  
+   /* Estilo para el fondo oscuro detrás del pop-up */
+   .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para la ventana emergente */
+.popup {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

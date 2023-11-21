@@ -1,26 +1,43 @@
-.custombg{
-    background: rgb(117,191,105);
+body {
     background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 35%, rgba(84,183,205,1) 76%, rgba(45,45,45,1) 100%);
-    padding: 10%;
-}
-.custom-height{
-    height: 75vh;
-}
+  }
 
+.custom-height{
+    height: 600px;
+    width: 700px;
+}
 
 .login-container img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
 }
 
-.navbar{
-    background: rgb(117,191,105);
-    background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 17%, rgba(12,148,51,1) 94%);
-}
-.greenbbg{
-    background: rgb(117,191,105);
-    background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 17%, rgba(12,148,51,1) 94%);
+.container {
+    padding: 125px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
+.container1 {
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+nav {
+    background-color: #000; /* Fondo negro */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para los botones de la barra de navegación */
+nav a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0 15px; /* Márgenes entre los botones */
+    font-size: 18px; /* Tamaño de fuente */
+}
